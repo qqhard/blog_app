@@ -19,11 +19,13 @@ Vue.use(Cell);
 Vue.use(CellGroup);
 
 import { Icon } from 'vant';
+import router from './router'
 
 Vue.use(Icon);
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app')
