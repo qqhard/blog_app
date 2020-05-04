@@ -23,6 +23,15 @@ import router from './router'
 
 Vue.use(Icon);
 
+import { Tab, Tabs } from 'vant';
+
+Vue.use(Tab);
+Vue.use(Tabs);
+
+import { Sticky } from 'vant';
+
+Vue.use(Sticky);
+
 Vue.config.productionTip = false
 
 new Vue({
